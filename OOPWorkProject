@@ -1,0 +1,36 @@
+public class Person {
+protected String name;
+protected int age;
+
+private int getAge(){
+        return age;
+    }
+public void printInformation(){
+        int a = getAge();
+        System.out.println("Age: " + a);
+    }
+}
+
+public class Instructor extends Person {
+public void assign(){
+    }
+}
+
+Package AllpackageOOP;
+class Student {
+protected int year;
+}
+
+
+
+package AllpackageOOP;
+class Course {
+    protected String name;
+    protected double grade;
+}
+
+package AllpackageOOP;
+class Select {
+    protected float mark;
+    protected String location;
+}
